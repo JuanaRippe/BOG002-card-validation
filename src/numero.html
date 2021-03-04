@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validar número</title>
+</head>
+ <body>
+    <!-- Titulo -->
+    <header> TU VALIDACIÓN EN UN CLICK</header>
+    <main>
+    <!-- formulario para pedir número de tarjeta + hacer botón validar-->
+    <form action="">
+     <div class="number">
+       <label for="numeroi">Ingrese su número de tarjeta:</label>
+       <input type="text" maxlength="16" class="numberBox" placeholder="Solo 16 dígitos" id="numeroi" name="numeroi">
+     </div>
+    <!-- Botón para válidar el número de la tarjeta-->
+       <a href="resultado.html"> 
+        <button type="button" onclick="siguiente()"> <span class="validarNumero">Validar</span></button><br/>
+       </a>
+    </form>
+  </main>
+  <footer></footer>
+  <script src="validator.js" type="module"></script>
+ </body>
+</html>
