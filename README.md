@@ -25,11 +25,11 @@
  <h3> Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios:</h3>
     El objetivo de VEC (Tu validación en un click) es que nuestros usuarios usen un sistema de validación de tarjetas de crédito para compras y pagos a través de internet, de forma segura y confiando en sus datos los cuales tienen sus propios mecanismos de protección de  la información  
   
- <h3> Luego colocarás la foto de tu primer prototipo en papel: </h3>
+ ### 4. Primer prototipo en papel
 
- <h3.5> Agregar un resumen del feedback recibido indicando las mejoras a realizar: </h3>
+ ### 5. Resumen del feedback recibido
 
- <h3> Imagen del prototipo final: </h3>
+ ### 6. Imagen del prototipo final
 
 
 
