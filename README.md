@@ -2,9 +2,17 @@
 ## Tu validación en un click
 
 ### 1. Resumen del proyecto
-      VEC (Tu Validación en un Click) es el botón de validación de tarjestas de crédito en línea, es un sistema completamente seguro mediante el cual las entidades financieras brindan a los usuarios la posibilidad de realizar su validación de tarjeta Visa, MasterCard y AmericanExpress para la compra y/o pagos a través de internet, de manera segura y confiada. 
+      VEC (Tu Validación en un Click) es el botón de validación de tarjestas de crédito en línea, es un sistema
+     completamente seguro mediante el cual las entidades financieras brindan a los usuarios la posibilidad de
+     realizar su validación de tarjeta Visa, MasterCard y AmericanExpress para la compra y/o pagos a través de 
+     internet, de manera segura y confiada. 
       
-      El sistema de VEC (Tu validación en un click) dispone de sus propios mecanismos de protección al comprador y venderdor será un servicio de validación de tarjetas de crédito en línea para permitri que entidades privadas acepten validaciones de tarjetas de crédito de forma segura en línea. El servicio está vinculado a los servicios de banca en línea de los usuarios, y las validaciones de tarjeta están vinculadas a la protección de datos informáticos, que tienen un lugar en el manejo de leyes gubernamentales la cual se refiere a las normas de protección al consumidor.
+      El sistema de VEC (Tu validación en un click) dispone de sus propios mecanismos de protección al comprador 
+     y venderdor será un servicio de validación de tarjetas de crédito en línea para permitri que entidades
+     privadas acepten validaciones de tarjetas de crédito de forma segura en línea. El servicio está vinculado a 
+     los servicios de banca en línea de los usuarios, y las validaciones de tarjeta están vinculadas a la protección 
+     de datos informáticos, que tienen un lugar en el manejo de leyes gubernamentales la cual se refiere a las normas
+     de protección al consumidor.
 
 ### 2. Fotos finales del proyecto
 
