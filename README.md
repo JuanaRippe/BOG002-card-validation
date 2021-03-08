@@ -2,7 +2,7 @@
 ## Tu validación en un click
 
 ### 1. Resumen del proyecto
-   <p> VEC (Tu Validación en un Click) es el botón de validación de tarjestas de crédito en línea, es un sistema
+   <p> VEC (Tu Validación en un Click) es el botón de validación de tarjetas de crédito en línea, es un sistema
      completamente seguro mediante el cual las entidades financieras brindan a los usuarios la posibilidad de
      realizar su validación de tarjeta Visa, MasterCard y AmericanExpress para la compra y/o pagos a través de 
      internet, de manera segura y confiada. </p>
