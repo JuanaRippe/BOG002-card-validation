@@ -1,13 +1,13 @@
-//import validator from './validator.js';
-/* Función para guarar el nombre */
+/// import validator from './validator.js';
+/// Función para guarar el nombre */
 function validar() {
-    let nombre = document.getElementById("nombre").value;
-     localStorage.setItem("nombre", nombre);
+let nombre = document.getElementById("nombre").value;
+localStorage.setItem("nombre", nombre);
      window.location.href="html/index.html" 
     }
    
 /* Función para guardar el número  */
-    function siguiente(){
+function siguiente(){
     let numero = document.getElementById("creditCardNumber").value;
      localStorage.setItem("creditCardNumber", numero); 
      console.log (invertirNumero(numero));
@@ -18,6 +18,5 @@ function validar() {
     return (numero.toString().split("").reverse());
     }
   
-
    
 //console.log(validator);
