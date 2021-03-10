@@ -1,2 +1,24 @@
-body {background-color: rgb(199, 33, 33);}
 
+header{
+  color: #800808;
+  font-size: 4vw;
+  font-family:'Roboto', sans-serif;
+  text-align: center;
+  padding-bottom: 5px;
+}
+header{
+    color: #800808;
+    font-size: 4vw;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+    padding-bottom: 5px;
+}
+footer {
+    text-align: center;
+    background: #f8b1f5;
+    margin: 0;
+  }
+  .footer{
+    margin: 0;
+    padding: 10px;
+}
