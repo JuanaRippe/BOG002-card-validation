@@ -3,34 +3,36 @@
   <head>
     <meta charset="utf-8">
     <title>Validando tu tarjeta de crédito</title>
-    <link rel="stylesheet" href="..//style.css">
-    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel="stylesheet" href="../style.css">
     <link href = "https://fonts.googleapis.com/css2? family = Source + Sans + Pro: wght @ 600 & display = swap "rel =" stylesheet ">
   </head>
   <body>
-    <div class="bannernumero">
-      <video autoplay muted loop>
-       <source src="VIDEOS2/video03.mp4">
-      </video>
+<main>
+    <div class="imagen">
+      <img>
+       <img src="VIDEOS2/tarjeta.svg">
+      </img>
     <!-- Titulo -->
-    <header> TU VALIDACIÓN EN UN CLICK</header>
-    <main>
+    <div class="titulo"><br/>
+    <header>
+      <h1> VEC<h1>
+    </header>
+  </div>
     <!-- formulario para pedir número de tarjeta + hacer botón validar-->
-    <form action="">
-     <div class="number">
+ <div class="number">
        <label for="numeroi">Ingrese su número de tarjeta:</label>
        <input type="text" maxlength="16" class="numberBox" placeholder="Solo 16 dígitos" id="creditCardNumber" name="numeroi">
-     </div>
     <!-- Botón para válidar el número de la tarjeta-->
-      
-        <button type="button" onclick="siguiente()" id="ValidarNumero"> <span class="validarNumero">Validar</span></button><br/>
-       
-    </form>
-  </main>
-  <footer>
-    <p>Derechos Reservados por Juana Rippe y Katherine Parra</p>
-    <p>Laboratoria 2021©</p>
-  </footer>
+      <button type="button" onclick="siguiente()" id="ValidarNumero"> <span class="validarNumero">Validar</span></button>
+      <br/>
+   </main>
+   <br>
+<div class="footer">
+    <footer>
+      <p>Derechos Reservados por Juana Rippe y Katherine Parra</p>
+      <p>Laboratoria 2021©</p>
+    </footer>
+</div>
   <script src="../index.js" type="module"></script>
  </body>
 </html>
