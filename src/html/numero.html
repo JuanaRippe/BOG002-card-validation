@@ -7,32 +7,32 @@
     <link href = "https://fonts.googleapis.com/css2? family = Source + Sans + Pro: wght @ 600 & display = swap "rel =" stylesheet ">
   </head>
   <body>
+<!-- Titulo -->
 <main>
-    <div class="imagen">
-      <img>
-       <img src="VIDEOS2/tarjeta.svg">
-      </img>
-    <!-- Titulo -->
-    <div class="titulo"><br/>
-    <header>
-      <h1> VEC<h1>
-    </header>
-  </div>
+<div class="titulo"><br/>
+    <header><h1> VEC(TU VALIDACIÓN EN UN CLICK)<h1> </header>
     <!-- formulario para pedir número de tarjeta + hacer botón validar-->
- <div class="number">
+     <div class="number">
        <label for="numeroi">Ingrese su número de tarjeta:</label>
-       <input type="text" maxlength="16" class="numberBox" placeholder="Solo 16 dígitos" id="creditCardNumber" name="numeroi">
-    <!-- Botón para válidar el número de la tarjeta-->
+       <input type="texto" maxlength="16"  class="Boxnumber" placeholder="Solo 16 dígitos" id="creditCardNumber" name="numerodetarjeta">
+    </div>
+       <!-- Botón para válidar el número de la tarjeta-->
       <button type="button" onclick="siguiente()" id="ValidarNumero"> <span class="validarNumero">Validar</span></button>
-      <br/>
-   </main>
-   <br>
-<div class="footer">
-    <footer>
-      <p>Derechos Reservados por Juana Rippe y Katherine Parra</p>
-      <p>Laboratoria 2021©</p>
+    <br/>
+    <div class="video">
+      <video autoplay muted loop>
+         <source src="VIDEOS2/videovalidar.mp4">
+        </video>
+    <!-- hacer un div para mostrar la validaciòn en la misma pantalla de numero.html-->
+            <div id="ocultar" class="ocultar"><p></p></div>
+             <div id="valinum" class="valinum"><p><p></div>
+</main>
+      <div class="footer">
+  <footer>
+  <p>Derechos Reservados por Juana Rippe y Katherine Parra</p>
+    <p>Laboratoria 2021©</p>
     </footer>
-</div>
+    <div>
   <script src="../index.js" type="module"></script>
  </body>
 </html>
