@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Validando tu tarjeta de crédito</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../style.css" /> 
     <link href = "https://fonts.googleapis.com/css2? family = Source + Sans + Pro: wght @ 600 & display = swap "rel =" stylesheet ">
   </head>
   <body>
@@ -11,22 +11,22 @@
 <main>
 <div class="titulo"><br/>
     <header><h1> VEC(TU VALIDACIÓN EN UN CLICK)<h1> </header>
-    <!-- formulario para pedir número de tarjeta + hacer botón validar-->
+    <!-- formulario para pedir número de tarjeta -->
      <div class="number">
-       <label for="numeroi">Ingrese su número de tarjeta:</label>
-       <input type="texto" maxlength="16"  class="Boxnumber" placeholder="Solo 16 dígitos" id="creditCardNumber" name="numerodetarjeta">
+       <label for="algoritmoluhn">Ingrese su número de tarjeta:</label>
+       <input type="text" maxlength="16" name="numerodetarjeta" class="Boxnumber" placeholder="Solo 16 dígitos" id="algoritmoluhn" onclick="" required >
     </div>
        <!-- Botón para válidar el número de la tarjeta-->
-      <button type="button" onclick="siguiente()" id="ValidarNumero"> <span class="validarNumero">Validar</span></button>
-    <br/>
-    <div class="video">
+      <button id="Validarnumero"> <span class="validarnumero">Validar</span></button>
+     <br/>
+     <div class="video">
       <video autoplay muted loop>
-         <source src="VIDEOS2/videovalidar.mp4">
-        </video>
+      <source src="VIDEOS2/videovalidar.mp4">
+      </video>
     <!-- hacer un div para mostrar la validaciòn en la misma pantalla de numero.html-->
-            <div id="ocultar" class="ocultar"><p></p></div>
-             <div id="valinum" class="valinum"><p><p></div>
-</main>
+      <div id="ocultar" class="ocultar"><p></p></div>
+      <div id="pantallanumero" class="pantallanumero"><p><p></div>
+      </main>
       <div class="footer">
   <footer>
   <p>Derechos Reservados por Juana Rippe y Katherine Parra</p>
