@@ -1,27 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Validar número</title>
-</head>
- <body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Validando tu tarjeta de crédito</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href = "https://fonts.googleapis.com/css2? family = Source + Sans + Pro: wght @ 600 & display = swap "rel =" stylesheet ">
+  </head>
+  <body>
+  <main>
+    <div class="imagen">
+       <img src="VIDEOS2/tarjeta.svg">
+      </img>
     <!-- Titulo -->
-    <header> TU VALIDACIÓN EN UN CLICK</header>
-    <main>
+    <div class="titulo"><br/>
+    <header>
+      <h1> VEC <h1>
+    </header>
+  </div>
     <!-- formulario para pedir número de tarjeta + hacer botón validar-->
-    <form action="">
-     <div class="number">
+ <div class="number">
        <label for="numeroi">Ingrese su número de tarjeta:</label>
        <input type="text" maxlength="16" class="numberBox" placeholder="Solo 16 dígitos" id="numeroi" name="numeroi">
      </div>
     <!-- Botón para válidar el número de la tarjeta-->
        <!-- <a href="resultado.html"> -->
-        <button type="button" onclick="siguiente()" id="ValidarNumero"> <span class="validarNumero">Validar</span></button><br/>
-    </form>
+        <button type="button" onclick="siguiente()" id="validarNumero" class="boton4"> <span class="validarNumero">Validar</span></button><br/>
   </main>
-  <footer></footer>
+  
+<div class="footer">
+    <footer>
+      <p>Derechos Reservados por Juana Rippe y Katherine Parra</p>
+      <p>Laboratoria 2021©</p>
+    </footer>
+</div>
   <script src="../index.js" type="module"></script>
  </body>
 </html>
