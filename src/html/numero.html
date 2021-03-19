@@ -19,21 +19,24 @@
   </div>
     <!-- formulario para pedir número de tarjeta + hacer botón validar-->
      <div class="number">
-       <label for="numeroi">Ingrese su número de tarjeta:</label>
-       <input type="text" maxlength="16" class="numberBox" placeholder="Solo 16 dígitos" id="numeroi" name="numeroi">
-     </div>
-    <!-- Botón para válidar el número de la tarjeta-->
-       <!-- <a href="resultado.html"> -->
-        <button type="button" onclick="" id="validarNumero" class="boton4"> <span>Validar</span></button><br/>
-            <!-- hacer un div para mostrar la validaciòn en la misma pantalla de numero.html-->
-            <div id="ocultar" class="ocultar"><p></p></div>
-             <div id="valiNum" class="valiNum"><p><p></div>
-  </main>
-  
-<div class="footer">
-    <footer>
-      <p>Derechos Reservados por Juana Rippe y Katherine Parra</p>
-      <p>Laboratoria 2021©</p>
+       <label for="algoritmoluhn">Ingrese su número de tarjeta:</label>
+       <input type="text" maxlength="16" name="numerodetarjeta" class="Boxnumber" placeholder="Solo 16 dígitos" id="algoritmoluhn" onclick="" required >
+    </div>
+       <!-- Botón para válidar el número de la tarjeta-->
+      <button id="Validarnumero"> <span class="validarnumero">Validar</span></button>
+     <br/>
+     <div class="video">
+      <video autoplay muted loop>
+      <source src="VIDEOS2/videovalidar.mp4">
+      </video>
+    <!-- hacer un div para mostrar la validaciòn en la misma pantalla de numero.html-->
+      <div id="ocultar" class="ocultar"><p></p></div>
+      <div id="pantallanumero" class="pantallanumero"><p><p></div>
+      </main>
+      <div class="footer">
+  <footer>
+  <p>Derechos Reservados por Juana Rippe y Katherine Parra</p>
+    <p>Laboratoria 2021©</p>
     </footer>
     <div>
   <script src="../index.js" type="module"></script>
