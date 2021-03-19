@@ -13,13 +13,13 @@ validarNumero.addEventListener('click', () => {
 // Evento para la validación
 validarNumero.addEventListener('click', (Evento) => {
   Evento.preventDefault();
-  // Traemos el número ingresado por el usuario
+// Traemos el número ingresado por el usuario
   let numeroi = document.getElementById('numeroi').value;
-  // Importamos el objeto iValid y Maskify
+// Importamos el objeto iValid y Maskify
   let resultado = validator.isValid(numeroi);
   let ocultar = validator.maskify(numeroi);
 
-  // Mensaje que se va a mostrar
+// Mensaje que se va a mostrar
   document.getElementById('ocultar').innerHTML = `${'*SU  TARJETA '}${ocultar}ES: `;
 
   let texto;
