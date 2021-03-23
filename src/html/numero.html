@@ -1,4 +1,48 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/BOG002-card-validation/src/css/styleIII.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valid tu tarjeta de crédito</title>
+</head>
+<body>
+  <header>
+    <div class="encabezado">TU VALIDACIÓN EN UN CLICK</div>
+  </header>
+
+  <main>
+    <div class="contenedor">
+
+      <video autoplay muted loop>
+       <source src="/BOG002-card-validation/videosN/video4.mp4">
+     </video>
+     <div class="overlay"></div>
+     <section class="numeroUsuario">
+       <label for="numeroi" class="numeroi">Ingrese su número de tarjeta:</label> <br>
+       <input type="text" class="cajaNumero" id="numeroi" name="numeroi" maxlength="16" placeholder="Solo 16 dígitos"  onclick="" required> <br>
+       <button id="validarNumero" class="validarnumero"> <span>Validar</span></button> <br/>
+     </section>
+
+     <section class="validacion">
+      <div id="ocultar" class="ocultar"><p></p></div>
+      <div id="valiNum" class="valiNum"><p><p></div>
+     </section>
+
+    </div>
+  </main>
+
+  <footer>
+    <p> Derechos Reservados por Juana Rippe y Katherine Parra <br>
+      Laboratoria 2021© </p>
+  </footer>
+  <script src="../index.js" type="module"></script>
+</body>
+</html>
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+<!-- <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -11,27 +55,27 @@
    <!--  <div class="imagen"> 
        <img src="VIDEOS2/tarjeta.svg">
       </img> -->
-    <!-- Titulo -->
+    <!-- Titulo 
     <div class="titulo"><br/>
     <header >
       <h1> VEC <h1>
     </header>
-  </div>
-    <!-- formulario para pedir número de tarjeta + hacer botón validar-->
-     <div class="number">
-       <label for="algoritmoluhn">Ingrese su número de tarjeta:</label>
-       <input type="text" maxlength="16" name="numerodetarjeta" class="Boxnumber" placeholder="Solo 16 dígitos" id="algoritmoluhn" onclick="" required >
+  </div
+    <!-- formulario para pedir número de tarjeta + hacer botón validar
+     <div class="number"></div>
+       <label for="numeroi">Ingrese su número de tarjeta:</label>
+       <input type="text" maxlength="16" name="numeroi" class="Boxnumber" placeholder="Solo 16 dígitos" id="numeroi" onclick="" required >
     </div>
-       <!-- Botón para válidar el número de la tarjeta-->
-      <button id="Validarnumero"> <span class="validarnumero">Validar</span></button>
+       <!-- Botón para válidar el número de la tarjeta
+      <button id="validarNumero"> <span class="validarNumero">Validar</span></button>
      <br/>
      <div class="video">
       <video autoplay muted loop>
-      <source src="VIDEOS2/videovalidar.mp4">
+      <source src="/BOG002-card-validation/videosN/video5.mp4">
       </video>
-    <!-- hacer un div para mostrar la validaciòn en la misma pantalla de numero.html-->
+    <!-- hacer un div para mostrar la validaciòn en la misma pantalla de numero.html
       <div id="ocultar" class="ocultar"><p></p></div>
-      <div id="pantallanumero" class="pantallanumero"><p><p></div>
+      <div id="valiNum" class="valiNum"><p><p></div>
       </main>
       <div class="footer">
   <footer>
@@ -41,4 +85,4 @@
     <div>
   <script src="../index.js" type="module"></script>
  </body>
-</html>
+</html> -->

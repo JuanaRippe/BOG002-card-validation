@@ -16,7 +16,7 @@ const validator = {
 // Multiplicamos los números de estas posiciones
           orden = orden * 2;
 // Si queda un número de dos digítos 
-          if (orden > 9){
+          if (orden > 9) {
 // Se le saca el residuo y se la suma 
               orden = 1 + (orden%10);
           }
@@ -40,7 +40,15 @@ const validator = {
         }
      }
     return resultados;
-    },
+    }
+
+};
+
+export default validator;
+
+
+
+
 
 /*isValid:function(validarnumero)
  let numero = document.getElementById("validarnumero").value;
@@ -52,6 +60,6 @@ return (numero.toString().split("").reverse())
 
 let suma=0
 
-};
+}; */
 
-//export default validator; */
+
