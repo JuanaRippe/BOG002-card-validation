@@ -15,7 +15,7 @@
      de protección al consumidor. </p>
 
 ### 2. Fotos finales del proyecto
-
+![](C:\Users\monch\OneDrive\Documentos\Repositorio\BOG002-card-validation\img)
 ### 3. Investigación UX:
  <h3> Explicar quiénes son los usuarios y los objetivos en relación con el producto:</h3>
   - Entidades financieras: VEC realiza la validación de tarjetas de crédito pro demido de instituciones financieras. Es necesario que la institución esté vinculada a VEC. <br>

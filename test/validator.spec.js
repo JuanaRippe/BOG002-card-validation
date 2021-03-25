@@ -1,5 +1,5 @@
 // importamos el objeto `validator`, que contiene las funciones `isValid` y `maskify`
-/* import validator from '../src/validator';
+import validator from '../src/validator';
 
 describe('validator', () => {
   it('debería ser un objeto', () => {
@@ -11,15 +11,15 @@ describe('validator', () => {
       expect(typeof validator.isValid).toBe('function');
     });
 
-    it.skip('debería retornar true para "4083952015263"', () => {
+    it('debería retornar true para "4083952015263"', () => {
       expect(validator.isValid('4083952015263')).toBe('true');
     });
 
-    it.skip('debería retornar true para "79927398713"', () => {
+    it('debería retornar true para "79927398713"', () => {
       expect(validator.isValid('79927398713')).toBe('true');
     });
 
-    it.skip('debería retornar false para "1234567890"', () => {
+    it('debería retornar false para "1234567890"', () => {
       expect(validator.isValid('1234567890')).toBe('false');
     });
   });
@@ -41,11 +41,11 @@ describe('validator', () => {
       expect(typeof validator.maskify('helloworld')).toBe('######orld');
     });
   });
-}); */
-import validator from '../src/validator';
+}); 
 
-describe('validator', () => {
-it('debería ser un objeto', () => {
+
+/*describe('validator', () => {
+ it('debería ser un objeto', () => {
 expect(typeof validator).toBe('object');
 });
 describe('validator.isValid', () => {
@@ -76,5 +76,5 @@ it('Debería retornar "######orld" para "helloworld"', () => {
 expect(validator.maskify('helloworld')).toBe('######orld');
 });
 });
-});
+}); */
 
