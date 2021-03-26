@@ -9,15 +9,12 @@ const validator = {
      let suma = 0;
 // Recorremos el array
       for (let i=0; i<reversarNumero.length; i++) {
-// Se declara una variable para convertir un string en un número base
         let orden = parseInt(reversarNumero[i]);
-// Obtenemos las posiciones pares
           if (i % 2 != 0) {
-// Multiplicamos los números de estas posiciones
+// Multiplicamos los números de las posiciones pares
           orden = orden * 2;
-// Si queda un número de dos digítos 
+// Si queda un número de dos digítos se saca el residuo y se le suma 1
           if (orden > 9) {
-// Se le saca el residuo y se la suma 
               orden = 1 + (orden%10);
           }
         }
