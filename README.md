@@ -15,7 +15,11 @@
      de protección al consumidor. </p>
 
 ### 2. Fotos finales del proyecto
-![](C:\Users\monch\OneDrive\Documentos\Repositorio\BOG002-card-validation\img)
+<img src="./img/PrototipoDeAlta1.PNG"> 
+<img src="./img/PrototipoDeAlta2.PNG"> 
+<img src="./img/PrototipoDeAlta3.PNG"> 
+<img src="./img/PrototipoDeAlta4.PNG"> 
+
 ### 3. Investigación UX:
  <h3> Explicar quiénes son los usuarios y los objetivos en relación con el producto:</h3>
   - Entidades financieras: VEC realiza la validación de tarjetas de crédito pro demido de instituciones financieras. Es necesario que la institución esté vinculada a VEC. <br>
@@ -26,10 +30,17 @@
     El objetivo de VEC (Tu validación en un click) es que nuestros usuarios usen un sistema de validación de tarjetas de crédito para compras y pagos a través de internet, de forma segura y confiando en sus datos los cuales tienen sus propios mecanismos de protección de  la información  
   
  ### 4. Primer prototipo en papel
+ <img src="./img/PrototipoDeBaja1.jpg"> 
+ <img src="./img/PrototipoDeBaja2.jpg"> 
+ <img src="./img/PrototipoDeBaja3.jpg"> 
+ <img src="./img/PrototipoDeBaja4.jpg"> 
 
  ### 5. Resumen del feedback recibido
 
  ### 6. Imagen del prototipo final
+ <img src="./img/pagina1.PNG"> 
+ <img src="./img/pagina2.PNG"> 
+ <img src="./img/pagina3.PNG"> 
 
 
 
