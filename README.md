@@ -27,15 +27,20 @@
   - Mayores de edad: Quienes compran y pagan sus servicios o produtos de los comercios, haciendo uso de sus tarjetas de crédito <br>
 
  <h3> Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios:</h3>
-    El objetivo de VEC (Tu validación en un click) es que nuestros usuarios usen un sistema de validación de tarjetas de crédito para compras y pagos a través de internet, de forma segura y confiando en sus datos los cuales tienen sus propios mecanismos de protección de  la información  
+    El objetivo de VEC (Tu validación en un click) es que nuestros usuarios usen un sistema de validación de tarjetas de crédito para compras y pagos a través de internet, de forma segura y confiando en sus datos los cuales tienen sus propios mecanismos de protección de  la información <br>
   
  ### 4. Primer prototipo en papel
  <img src="./img/PrototipoDeBaja1.jpg"> 
  <img src="./img/PrototipoDeBaja2.jpg"> 
  <img src="./img/PrototipoDeBaja3.jpg"> 
- <img src="./img/PrototipoDeBaja4.jpg"> 
+ <img src="./img/PrototipoDeBaja4.jpg"> <br>
 
  ### 5. Resumen del feedback recibido
+ <h3> En el proceso del Feedback recibimos varias sugerencias para mejorar la interacción con el usuario y la  visualización del proyecto : <br>
+1) En primera instancia  en la primera pagina se agrego información acerca de lo que se trataba VEC (Tu validación en un click ) para dar contexto al pedir el nombre.<br>
+2) Se  mejoro  el resumen del proyecto  para enfocarnos en la interacción del usuario.<br>
+3) Se decidió  no preguntar algunos datos adicionales al usuario ya que tendríamos que tomarlos desde el inicio de la página.<br>
+4) También se tuvo en cuenta la paleta de colores ya que nos ayudó a orientarnos y elegir los colores apropiados para asociarlos a la respectiva página web. </h3> <br>
 
  ### 6. Imagen del prototipo final
  <img src="./img/pagina1.PNG"> 
