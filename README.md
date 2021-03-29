@@ -36,11 +36,11 @@
  <img src="./img/PrototipoDeBaja4.jpg"> <br>
 
  ### 5. Resumen del feedback recibido
- <h3> En el proceso del Feedback recibimos varias sugerencias para mejorar la interacción con el usuario y la  visualización del proyecto : <br>
-1) En primera instancia  en la primera pagina se agrego información acerca de lo que se trataba VEC (Tu validación en un click ) para dar contexto al pedir el nombre.<br>
-2) Se  mejoro  el resumen del proyecto  para enfocarnos en la interacción del usuario.<br>
-3) Se decidió  no preguntar algunos datos adicionales al usuario ya que tendríamos que tomarlos desde el inicio de la página.<br>
-4) También se tuvo en cuenta la paleta de colores ya que nos ayudó a orientarnos y elegir los colores apropiados para asociarlos a la respectiva página web. </h3> <br>
+ <h3> En el proceso del Feedback recibimos varias sugerencias para mejorar la interacción con el usuario y la  visualización del proyecto: </h3><br>
+- En primera instancia  en la primera pagina se agrego información acerca de lo que se trataba VEC (Tu validación en un click ) para dar contexto al pedir el nombre.<br>
+- Se  mejoro  el resumen del proyecto  para enfocarnos en la interacción del usuario.<br>
+- Se decidió  no preguntar algunos datos adicionales al usuario ya que tendríamos que tomarlos desde el inicio de la página.<br>
+- También se tuvo en cuenta la paleta de colores ya que nos ayudó a orientarnos y elegir los colores apropiados para asociarlos a la respectiva página web.  <br>
 
  ### 6. Imagen del prototipo final
  <img src="./img/pagina1.PNG"> 
