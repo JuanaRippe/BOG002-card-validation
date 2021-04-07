@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+ body {
+        font-family: 'Comic Neue', cursive;
+    }
+ header{
+    width: 100%;
+    background-color: #04BFAD;
+    position: relative;
+ }
+
+.contenedor {
+    width: 100%;
+    height: 100%;  
+}
+
+.contenedor .overlay {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    background: rgba(29, 27, 26, 0.788);
+}
+.contenedor video {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    pointer-events: none;
+    object-fit: cover;
+    }
+
+
+.encabezado{
+    width: 100%;
+    height: 500%;
+    color: #000;
+    font-size: 20px;
+    padding: 15px 30px;
+    position: relative;
+    
+}
+
+.numeroUsuario{
+    width: 100%;
+    height: 40%;
+    margin-top: 50px;
+    margin-bottom: 250px;
+    padding: 15px 30px;
+    display: flex;
+    justify-content:flex;
+    position:absolute;
+    flex-direction: column;
+    align-items: center;
+}
+.numeroUsuario .numeroi{
+    width: 25%;
+    height: 10%;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    position:relative;
+}
+.numeroUsuario .cajaNumero{
+    width: 15%;
+    height: auto;
+    font-size: 15px;
+    position:relative;
+}
+.numeroUsuario .validarnumero{
+    width: 8%;
+    color: #000;
+    font-size: 20px;
+    position:relative;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.validacion{
+    width: 100%;
+    height: auto;
+    margin-top: 300px;
+    margin-bottom: 250px;
+    padding: 15px 30px;
+    display: flex;
+    justify-content:flex-end;
+    position:absolute;
+    flex-direction: column;
+    align-items: center;
+}
+.validacion .ocultar{
+    width: 25%;
+    height: 10%;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    position:relative;
+}
+.validacion .valiNum{
+    width: 25%;
+    height: 10%;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    position:relative;
+}
+
+
+footer{ 
+    width: 100%;
+    height: 11%;
+    font-size: 18px;
+    bottom: 0%;
+    padding: 12px 30px;
+    position:relative;
+    background-color: #04BFAD;
+    position: fixed;
+    text-align: center;
+}
